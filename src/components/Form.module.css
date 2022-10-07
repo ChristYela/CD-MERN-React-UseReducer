@@ -1,0 +1,32 @@
+.emailForm {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30%;
+    text-align: left;
+}
+
+.emailForm label {
+    color: darkmagenta;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.emailForm input {
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+.emailForm button {
+    background-color: rebeccapurple;
+    color: white;
+    height: 30px;
+    font-weight: 900;
+}
+
+.error {
+    color: rgb(155, 23, 23);
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: yellow;
+}
