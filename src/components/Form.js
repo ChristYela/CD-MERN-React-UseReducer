@@ -14,6 +14,7 @@ const initialState = {
     value: "",
     noError: true,
     },
+    
 };
 
 const validateInput = (type, value) => {
@@ -46,7 +47,7 @@ const Form = () => {
         noError: noError,
         },
     };
-
+    
     dispatch(action);
 };
 
@@ -93,9 +94,10 @@ const Form = () => {
         <p className={styles.error}>Email must be valid</p>
     )}
 
-    <button type="submit" value="Create User">Submit</button>
+    <button  mt={4} className="btn btn-info" type="submit" value="Create User">Submit</button>
     </div>
 );
 };
 
 export default Form;
+
