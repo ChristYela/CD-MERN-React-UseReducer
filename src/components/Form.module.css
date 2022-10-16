@@ -6,7 +6,7 @@
 }
 
 .emailForm label {
-    color: darkmagenta;
+    color: blue;
     margin-bottom: 10px;
     font-weight: 700;
 }
@@ -16,12 +16,12 @@
     height: 30px;
 }
 
-.emailForm button {
+/*.emailForm button {
     background-color: rebeccapurple;
     color: white;
     height: 30px;
     font-weight: 900;
-}
+} */
 
 .error {
     color: rgb(155, 23, 23);
